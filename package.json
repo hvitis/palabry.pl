@@ -1,0 +1,21 @@
+{
+  "name": "django-vue-3-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": "12.x",
+    "yarn": "1.12.3"
+  },
+  "scripts": {
+    "postinstall": "cd frontend && yarn install && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksaaskil/django-vue-3-template.git"
+  },
+  "author": "",
+  "license": "MIT"
+}
